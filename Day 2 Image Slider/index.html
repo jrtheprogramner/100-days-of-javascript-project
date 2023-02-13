@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Image Slider</h1>
+    </div>
+    <div class="slider">
+        <div class="slides">
+            <img src="image/img1.jpg" alt="image1">
+            <img src="image/img2.jpg" alt="image2">
+            <img src="image/img3.jpg" alt="image3">
+            <img src="image/img4.jpg" alt="image4">
+            <img src="image/img5.png" alt="image5">
+            <img src="image/img6.jpg" alt="image6">
+            <img src="image/img7.png" alt="image7">
+            <img src="image/img8.jpg" alt="image8">
+        </div>
+        <button class="prev">Prev</button>
+        <button class="next">Next</button>
+        <div class="dots">
+            <span class="dot" onclick="currentSlides(1)"></span>
+            <span class="dot" onclick="currentSlides(2)"></span>
+            <span class="dot" onclick="currentSlides(3)"></span>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Day 2/100 Javascript Code</h1>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
