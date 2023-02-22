@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Paint App</title>
+  <style>
+    /* CSS styles for the canvas and buttons */
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    canvas {
+      border: 1px solid black;
+    }
+    button {
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h1 >Paint App</h1>
+  <canvas id="canvas" width="800" height="500"></canvas>
+  <br>
+  <input type="range" id="brushSize" min="1" max="50" value="10">
+  <input type="color" id="brushColor" value="#000000">
+  <button id="eraser">Eraser</button>
+  <button id="save">Save</button>
+  <button id="load">Load</button>
+  <a id="downloadLink"></a>
+  <button id="brush">Brush</button>  
+</div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
